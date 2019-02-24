@@ -1,0 +1,22 @@
+{
+    "name": "swenson/module-productvisibility",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "alinasrulah@gmail.com",
+            "name": "Ali Nasrullah"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Swenson\\ProductVisibility\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
